@@ -25,5 +25,6 @@ public class UIHealthBar : MonoBehaviour
     public void SetMax(int maxHealth)
     {
         _healthBar.maxValue = maxHealth;
+        SetValue(maxHealth);
     }
 }
